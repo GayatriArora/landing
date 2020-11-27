@@ -1,0 +1,140 @@
+/* Write some CSS below */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 200px;
+}
+
+body {
+	font-family: 'Overpass' , sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	color: #2a0800;
+	font-size: 200px;
+	font-weight: 700;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing: 5px;
+}
+
+
+h2 {
+	color: #372549;
+}
+
+
+h2 {
+	font-family: 'Chivo';
+}
+
+h3 {
+	color: #583101;
+	
+}
+
+p {
+	color: #603808;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fb6107;
+}
+
+a:hover {
+	color: #ffbc42;
+}
+
+.btn-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+}
+
+.banner {
+	background-image: url("images/main2.jpg");
+	padding: 150px 0 ;
+	color: white;
+	text-align: center;
+	background-size: cover; /*#fills out full container*/
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.card-white {
+	background-color: #f4edea;
+	box-shadow: 10px 10px 15px rgba(0 0 0 0.1);
+	width: 200px; 
+	padding: 24px;
+	margin: 15px;
+	border-radius: 7px;
+}
+
+.card-white img {
+	width: 100%;
+	height: 180px;	
+	object-fit: cover;
+}
+
+.footer {
+	background-color: #463f3a;
+	padding: 25px 0 0;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+
+}
+
+.footer p {
+	color: white;
+}
+
+.banner p {
+	margin-bottom: 40px;
+	padding: 10px;
+}
+
+.banner h1 {
+	font-size: 100px;
+	color: #2a0800;
+}
+
+
+
+.container {
+	width: 800px;
+	margin-right: auto; /* or margin:auto*/
+	margin-left: auto;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.navbar {
+	height: 30px;
+	margin-bottom: 0;
+	padding: 0;
+	text-align: right;
+	background-color: #F4EDEA;
+	margin-bottom: 0.2px;
+}
+
+.navbar p {
+	padding: 10px;
+	padding-right: 30px;
+	margin: 0;
+}
+
+.navbar p:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
